@@ -20,7 +20,7 @@
 
    //HEADERS/CABE�ALHO DAS FUN��ES E PROCEDIMENTOS DO PROGRAMA
 
-    Livro* insert_livro(Livro* l);        //fun��o que insere um livro na lista (retorna um ponteiro do tipo 'Livro')
+    Livro* insert_livro(Livro* l);        //função que insere um livro na lista (retorna um ponteiro do tipo 'Livro')
     void print_livro(Livro* l);          //fun��o que imprime a lista e recebe a lista 'l' como argumento (sem retorno)
     Livro* delete_livro(Livro* l);      //fun��o que exclu� um livro da lista (retorna um ponteiro do tipo 'Livro')
     void edit_livro(Livro* l);         //fun��o que edita um livro da lista (e recebe a lista 'l' como argumento (sem retorno)
