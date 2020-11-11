@@ -7,7 +7,7 @@
 #include <locale.h>
 #include <math.h>
 
-//DEFINI��O DA ESTRUTURA 'LIVRO' E OS RESPECTIVOS CAMPOS
+//DEFINIÇÃO DA ESTRUTURA 'LIVRO' E OS RESPECTIVOS CAMPOS
  typedef struct livro{
      char titulo[50];
      char autor[50];
@@ -18,7 +18,7 @@
      int size;
    }Livro;
 
-   //HEADERS/CABE�ALHO DAS FUN��ES E PROCEDIMENTOS DO PROGRAMA
+   //HEADERS/CABEÇALHO DAS FUNÇÕES E PROCEDIMENTOS DA APLICAÇÃO
 
     Livro* insert_livro(Livro* l);        //função que insere um livro na lista (retorna um ponteiro do tipo 'Livro')
     void print_livro(Livro* l);          //fun��o que imprime a lista e recebe a lista 'l' como argumento (sem retorno)
@@ -28,9 +28,9 @@
     int list_size(Livro*l);          //fun��o com estrutura de itera��o que varre a lista e busca a quantidade de registros
     Livro* consulta_livro(Livro *l);//fun��o que permite a consulta individual de um adastro e exibe todos os campos do livro
 
-                        //IN�CIO DA CONSTRU��O DA L�GICA E ESTRUTURA��O DAS FUN��ES E PROCEDIMENTOS DO PROGRAMA:
+                        //IN�CIO DA CONSTRU��O DA L�GICA E ESTRUTURA��O DAS FUN��ES E PROCEDIMENTOS DA APLICAÇÃO:
 
-//FUN��O QUE VARRE, CONTA E RETORNA O TAMANHO DA LISTA
+//FUNÇÃO QUE VARRE, CONTA E RETORNA O TAMANHO DA LISTA
   int list_size(Livro*l){
   Livro livro;
   Livro *atual = l;
@@ -431,4 +431,4 @@ main()
             printf("\n\n\nOp��o inv�lida\n");
       }
    }
-} //FINAL DA EXECU��O DO PROGRAMA
+} //FINAL DA EXECUÇÃO
